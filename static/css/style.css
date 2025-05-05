@@ -1,0 +1,91 @@
+/* html и body занимают всю ширину */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Навигационные кнопки в шапке */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  background-color: #1f1f1f;
+  border-bottom: 1px solid #333;
+}
+
+/* Стили для навигационных кнопок */
+.nav-buttons .btn-primary {
+  background-color: #82aaff;
+  border-color: #82aaff;
+  color: #121212;
+  font-weight: 600;
+}
+.nav-buttons .btn-primary:hover,
+.nav-buttons .btn-primary:focus {
+  background-color: #5c8eff;
+  border-color: #5c8eff;
+}
+
+/* Основной блок: центр по горизонали, отступ сверху, выравнивание внутри по левому краю */
+.wrapper {
+  max-width: 700px;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Заголовок */
+.title {
+  color: #82aaff;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+/* Карточка результата */
+.card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* Кнопки основного контента */
+.btn-primary {
+  background-color: #82aaff;
+  border-color: #82aaff;
+  color: #121212;
+  font-weight: 600;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #5c8eff;
+  border-color: #5c8eff;
+}
+
+/* Поле файла */
+.form-control {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  color: #e0e0e0;
+}
+.form-control:focus {
+  border-color: #5c8eff;
+  box-shadow: none;
+}
+
+/* Аннотированное изображение */
+#output img {
+  max-width: 100%;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  border: 1px solid #333;
+}
+
+.table th,
+.table td {
+  padding-left: 1rem;   /* слева 1rem */
+  padding-right: 1rem;  /* справа 1rem */
+}
